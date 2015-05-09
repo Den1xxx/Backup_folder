@@ -1,4 +1,4 @@
-<h1>Batch file for backup for Windows </h1>
+<h1>Batch file for backup folder under Windows</h1>
 <h2>Release #0.01 of 09.05.2015.</h2>
 Periodically saving a certain folder in the archive and delete irrelevant files under Windows
 #####
@@ -8,15 +8,15 @@ Faye take from this repository accordingly to your version of Windows and your l
  - Customize the settings within backup_folder.bat
 For this edit lines:
 ```batch
-rem Location of copy
-set from = D: \ HOMEBANK \ base
-rem for the log file copying
+rem Location of copying folder
+set from = D:\HOMEBANK\base
+rem log file
 set log = result_%DATE%.txt
 rem How to post archives
 set old = 30
 ```
-- Check out how it works - running the file. In the same folder, create a folder must backup and log file. Restarting the file does not have to create the file, but simply display a warning. Tweak parameters if necessary.
-  - Set up Periodic run the file. To do this, you can place a link to the file in the startup when your computer starts.
+ - Check out how it works - running the file. In the same folder, create a folder must backup and log file. Restarting the file does not have to create the file, but simply display a warning. Tweak parameters if necessary.
+ - Set up Periodic run the file. To do this, you can place a link to the file in the startup when your computer starts.
 
 ===============================================================================
 <h1>Batch файл для архивации важной папки под Windows </h1>
@@ -25,7 +25,7 @@ set old = 30
 #####
  - Создайте папку для будущих архивов.
  - Поместите туда файл backup_folder.bat
-Фай возьмите из этого репозитория соответственно Вашей версии системы Windows и Вашего языка.
+Файл возьмите из этого репозитория соответственно Вашей версии системы Windows и Вашего языка.
  - Настройте параметры внутри backup_folder.bat
 Для этого отредактировать строчки:
 ```batch
